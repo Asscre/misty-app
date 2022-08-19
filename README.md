@@ -1,4 +1,6 @@
 # Misty app
+这是 Misty 的demo项目。 运行 Misty 可作为内置程序运行。
+
 **[Misty](https://github.com/Asscre/misty)** - 一个Flutter web项目的本地缓存解决方案.
 
 通过拦截浏览器网络请求，读取本地资源文件，减少网络资源请求来提高网页的开启速度，实现Flutter的原生手势交互的Flutter web preload解决方案。
