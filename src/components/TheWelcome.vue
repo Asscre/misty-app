@@ -5,6 +5,8 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
+import JuejinIcon from "./icons/IconJuejin.vue";
+import GithubIcon from "./icons/IconGithub.vue";
 </script>
 
 <template>
@@ -12,80 +14,72 @@ import SupportIcon from "./icons/IconSupport.vue";
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
-
-    Vue’s
-    <a target="_blank" href="https://vuejs.org/">official documentation</a>
-    provides you with all information you need to get started.
+    <template #heading>文档</template>
+    Misty’s
+    <a target="_blank" href="https://github.com/Asscre/misty-app">Github</a>
+    让你的Flutter拥有小程序功能的功能体验.
+    <br />
+    Misty’s
+    <a target="_blank" href="https://github.com/Asscre/misty-app">官方demo</a>
+    帮助你快速了解如何集成属于你自己的Flutter小程序功能.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
-
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite</a>.
-    The recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>.
-    If you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank"
-      >Cypress Component Testing</a
-    >.
-
+    <template #heading>项目规划</template>
     <br />
-
-    More instructions are available in <code>README.md</code>.
+    ✅ Web 资源管理器 (版本管理，资源下载管理)
+    <br />
+    ✅ WebView 资源和网络代理
+    <br />
+    ☑️ Flutter 与 Web 项目原生交互
+    <br />
+    ☑️ Misty UI框架，帮助快速搭建 Misty 程序
+    <br />
+    更多详情了解请看 <code>README.md</code>.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>持续更新</template>
 
-    Get official tools and libraries for your project:
-    <a target="_blank" href="https://pinia.vuejs.org/">Pinia</a>,
-    <a target="_blank" href="https://router.vuejs.org/">Vue Router</a>,
-    <a target="_blank" href="https://test-utils.vuejs.org/">Vue Test Utils</a>,
-    and
-    <a target="_blank" href="https://github.com/vuejs/devtools">Vue Dev Tools</a
-    >. If you need more resources, we suggest paying
-    <a target="_blank" href="https://github.com/vuejs/awesome-vue"
-      >Awesome Vue</a
-    >
-    a visit.
+    保证每个自然月更新一版！😁
+    <br /> 
+    <br /> 
+    为了保证正常版本更新和迭代，更新迭代的规则如下：
+    <br />
+    ⭕️  优先 版本开发 和 修复 BUG
+    <br />
+    ⭕️  然后是 需求榜
+    <br />
+    ⭕️  其次是 其他定制化
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <CommunityIcon />
     </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a target="_blank" href="https://chat.vuejs.org">Vue Land</a>, our official
-    Discord server, or
-    <a target="_blank" href="https://stackoverflow.com/questions/tagged/vue.js"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a target="_blank" href="https://news.vuejs.org">our mailing list</a> and
-    follow the official
-    <a target="_blank" href="https://twitter.com/vuejs">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    <template #heading>关注我</template>
+    <JuejinIcon />
+    <a href="https://juejin.cn/user/870468939942311">Asscre</a>
+    <br />
+    <GithubIcon />
+    <a href="https://github.com/Asscre">Asscre</a>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
+    <template #heading>支持 Misty</template>
 
-    As an independent project, Vue relies on community backing for its
-    sustainability. You can help us by
-    <a target="_blank" href="https://vuejs.org/sponsor/">becoming a sponsor</a>.
+    <img class="logo"
+      src="@/assets/WechatPay.jpeg"
+      width="219"
+      height="300">
   </WelcomeItem>
 </template>
